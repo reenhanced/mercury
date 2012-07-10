@@ -1,5 +1,15 @@
+.navbar .nav li {
+  color: white;
+  padding: 9px 10px 11px;
+}
+
+#editpage {
+  float: right;
+
+}
+
 body.home {
-  background: url(../images/logo.png) no-repeat 200px 90px;
+  background: url(../images/logo.png) no-repeat center 40px;
 }
 hr.soften {
   height: 1px;
@@ -12,7 +22,7 @@ hr.soften {
 }
 
 #navigation {
-  border-top: 5px solid #09F;
+  border-top: 5px solid #F90;
 }
 #subnav {
   width: 100%;
@@ -81,17 +91,16 @@ hr.soften {
   -webkit-border-radius: 4px;
 }
 
-#social ul {
-  list-style: none;
-  text-align: center;
+#editme {
+  width: 800px;
+  margin: 0 auto;
 }
-#social ul.support-links {
-  margin-right: 30px;
-}
-#social li {
-  display: inline;
-  margin: 0 8px;
-  color: #999;
+
+#editme_content {
+  background: #eee;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 #support {
